@@ -16,6 +16,8 @@ There is no single cause for mental illness. A number of factors can contribute 
 5. Having feelings of loneliness or isolation
 
 MENTAL HEALTH MATTERS! MENTAL HEALTH CAN BE CURED!
-https://media.istockphoto.com/id/1268669581/vector/mental-health-or-psychology-concept-with-flowering-human-head.jpg?s=612x612&w=0&k=20&c=LOtwBGtVd--snuvQVQfGrmdRN8Mn1h7Ur00RLjt1M-w=
+
+![1](https://user-images.githubusercontent.com/71866596/208294889-9a8d31cb-6483-415b-8835-d71fabdd8369.jpg)
+
 
 Thus, keeping all these things in mind I tried to create a mental awareness website (still working on backend part) to provide support to people suffering from mental health problems who are afraid to come out in public. 
