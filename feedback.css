@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Mochiy+Pop+One);
+@import url(https://fonts.googleapis.com/css?family=Karla);
+html{
+  background-color: #D6E1D4; 
+    font-family: 'Mochiy Pop One';
+}
+h1 {
+    font-family: 'Mochiy Pop One';
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+color: #1d739a;
+ 
+}
+
+nav{
+  display: flex ;
+  justify-content: space-evenly;
+  background-color: #B3D0AE;
+  padding:1%;
+  width:98%;
+  
+}
+
+article{
+  padding: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #B3D0AE;
+  color: white;
+}
+
+a{
+  color:#221916 ;
+  font-family: 'Karla';
+  font-size:20px;
+  font-style:normal;
+}
+
+article :hover{
+  background-color:#D6E1D4;
+  color:#221916 ; 
+  border-radius: 2px;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+button{
+  display: block;
+  margin: auto;
+  padding: 10px;
+  width: 200px;
+  background-color: #B3D0AE;
+  border: 2px solid black;
+  font-family: "MochiyPopOne";
+  font-size: 25px;
+  color: black;
+}
+button:hover{
+  background-color: #4ec639;
+  color: black;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.row{
+    color: #4E3030;
+  font-family: 'Mochiy Pop One';
+}
+#first{
+    margin: auto;
+}

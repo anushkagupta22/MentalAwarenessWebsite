@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Mochiy+Pop+One);
+@import url(https://fonts.googleapis.com/css?family=Karla);
+html{
+  background-color: #D6E1D4; 
+/*  background-image: url("bg.png"); */
+ background-image: url("bg2.png");
+      font-family: 'Mochiy Pop One';
+}
+
+h1 {
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+color: #1d739a;
+ 
+}
+h2{
+  font-family:Mochiy Pop One;
+  text-align: center;
+  font-size: 40px;
+}
+nav{
+  display: flex ;
+  justify-content: space-evenly;
+  background-color: #B3D0AE;
+  padding:1%;
+  width:98%;
+}
+
+article{
+  padding: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #B3D0AE;
+  color: white;
+}
+
+a{
+  color:#221916 ;
+  font-family: 'Karla';
+  font-size:20px;
+  font-style:normal;
+}
+
+article :hover{
+  background-color:#D6E1D4;
+  color:#221916 ; 
+  border-radius: 2px;
+}
+p{
+  font-family:Mochiy Pop One ;
+  font-size: 20px;
+  padding:1.5%;
+  padding-top:1% ;
+  color:#4E3030 ;
+}
+h3{
+  font-family:Mochiy Pop One ;
+  font-size: 30px;
+  padding:1.5%;
+}

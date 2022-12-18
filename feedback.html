@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="feedback.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+<h1>SAVE ALL MINDS!</h1>
+<nav class="nav-bar">
+  <article>
+    <a href="index.html">Homepage</a>
+  </article>
+  <article>
+    <a href="resources.html">Resources</a>
+  </article>
+  <article>
+    <a href="age-groups.html">Ages</a>
+  </article>
+  <article>
+    <a href="feedback.html">Feedback</a>
+  </article>
+</nav>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="india">India</option>
+          <option value="uk">UK</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">What do you need for us to be better?</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" style="height:100px"></textarea>
+      </div>
+  </form>
+</div>
+<button onClick="showImage()">Submit</button>
+<div id="first" style="height:200px; width:200px; display:none;">
+    <img src="https://i0.wp.com/armco.org.uk/wp-content/uploads/2019/04/sticky-note-png-32848.png"/>
+</div>
+</body>
+</html>
+
+<script src="feedback.js"></script>
+
+<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

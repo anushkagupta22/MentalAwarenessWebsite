@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Mochiy+Pop+One);  
+@import url(https://fonts.googleapis.com/css?family=Karla);
+html{
+  background-color: #D6E1D4; 
+      font-family: 'Mochiy Pop One';
+}
+h1 {
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+color: #1d739a;
+ 
+}
+nav{
+  display: flex ;
+  justify-content: space-evenly;
+  background-color: #B3D0AE;
+  padding:1%;
+  width:98%;
+  
+}
+
+article{
+  padding: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #B3D0AE;
+  color: white;
+}
+
+a{
+  color:#221916 ;
+  font-family: 'Karla';
+  font-size:20px;
+  font-style:normal;
+}
+
+article :hover{
+  background-color:#D6E1D4;
+  color:#221916 ; 
+  border-radius: 2px;
+}
+p{
+  font-size: 20px;
+  padding:1.5%;
+  padding-top:1% ;
+  color:#4E3030 ;
+  font-family:Mochiy Pop One;
+}
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 10px solid #cdc6c6;
+}
+.image:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  opacity: .5;
+}
+a{
+        display: block;
+        width: 150px;
+        margin: auto;
+}
+.image2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 600px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 10px solid #cdc6c6;
+}
+.image2:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  opacity: .5;
+}
+.image4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 500px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 10px solid #cdc6c6;
+}
+.image4:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  opacity: .5;
+}
+.image3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 10px solid #cdc6c6;
+}
+.image3:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  opacity: .5;
+}
